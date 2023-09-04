@@ -18,13 +18,36 @@
 
 // const person: any = { name: "Aniket", job: "Messing things up" };
 
-let currentBalance = 100;
+// let currentBalance = 100;
 
-// Simulate a withdrawal
-function withdraw(amount: number) {
-  currentBalance -= amount;
+// // Simulate a withdrawal
+// function withdraw(amount: number) {
+//   currentBalance -= amount;
 
-  console.log(`Current Balance: $${currentBalance}`);
+//   console.log(`Current Balance: $${currentBalance}`);
+// }
+
+// withdraw(25);
+
+// let counter: number = 0;
+
+// type Person = {
+//   first: string;
+//   last: string;
+// };
+
+// let person = { first: "Aniket", last: "Datta" };
+
+// const formatName = (p: { first: string; last: string }): string => "okay";
+
+// const formated = formatName(person);
+
+// console.log(formated);
+
+function add(x: number, y: number | string) {
+  //   return x + y;
+  if (typeof y == "string") {
+    return 0;
+  }
+  return x + y;
 }
-
-withdraw(25);
