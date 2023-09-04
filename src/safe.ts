@@ -12,8 +12,19 @@
 // const point = { x: 12, y: 26 };
 // logPoint(point);
 
-const person = { name: "Aniket", job: "Messing things up" };
+// const person = { name: "Aniket", job: "Messing things up" };
 
-person.name;
+// person.name;
 
 // const person: any = { name: "Aniket", job: "Messing things up" };
+
+let currentBalance = 100;
+
+// Simulate a withdrawal
+function withdraw(amount: number) {
+  currentBalance -= amount;
+
+  console.log(`Current Balance: $${currentBalance}`);
+}
+
+withdraw(25);
