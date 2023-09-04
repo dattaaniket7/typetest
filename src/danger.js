@@ -1,13 +1,13 @@
-// let currentBalance = 100;
+let currentBalance = 100;
 
-// // Simulate a withdrawal
-// function withdraw(amount) {
-//   currentBalance -= amount;
+// Simulate a withdrawal
+function withdraw(amount) {
+  currentBalance -= amount;
 
-//   console.log(`Current Balance: $${currentBalance}`);
-// }
+  console.log(`Current Balance: $${currentBalance}`);
+}
 
-// withdraw("25");
+withdraw("25");
 
 let person = { first: "Aniket", last: "Datta" };
 

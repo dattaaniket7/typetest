@@ -18,16 +18,16 @@
 
 // const person: any = { name: "Aniket", job: "Messing things up" };
 
-// let currentBalance = 100;
+let currentBalance = 100;
 
-// // Simulate a withdrawal
-// function withdraw(amount: number) {
-//   currentBalance -= amount;
+// Simulate a withdrawal
+function withdraw(amount: number) {
+  currentBalance -= amount;
 
-//   console.log(`Current Balance: $${currentBalance}`);
-// }
+  console.log(`Current Balance: $${currentBalance}`);
+}
 
-// withdraw(25);
+withdraw(25);
 
 // let counter: number = 0;
 
@@ -36,13 +36,14 @@
 //   last: string;
 // };
 
-// let person = { first: "Aniket", last: "Datta" };
+let person = { first: "Aniket", last: "Datta" };
 
-// const formatName = (p: { first: string; last: string }): string => "okay";
+const formatName = (p: { first: string; last: string }): string =>
+  `${p.first + p.last}`;
 
-// const formated = formatName(person);
+const formated = formatName(person);
 
-// console.log(formated);
+console.log(formated);
 
 // function add(x: number, y: number | string) {
 //   //   return x + y;
@@ -52,8 +53,8 @@
 //   return x + y;
 // }
 
-function add(x) {
-  return x;
-}
+// function add(x) {
+//   return x;
+// }
 
-let test;
+// let test;
