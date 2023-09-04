@@ -44,10 +44,16 @@
 
 // console.log(formated);
 
-function add(x: number, y: number | string) {
-  //   return x + y;
-  if (typeof y == "string") {
-    return 0;
-  }
-  return x + y;
+// function add(x: number, y: number | string) {
+//   //   return x + y;
+//   if (typeof y == "string") {
+//     return 0;
+//   }
+//   return x + y;
+// }
+
+function add(x) {
+  return x;
 }
+
+let test;
